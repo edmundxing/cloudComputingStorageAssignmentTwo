@@ -1,0 +1,173 @@
+ncpus=8,neednodes=4:ppn=8,nodes=4:ppn=8,walltime=04:00:00
+Set up the configurations for myHadoop
+Number of Hadoop nodes requested: 4
+Generation Hadoop configuration in directory: /N/u/edmundxing/myHadoop-config
+Not persisting HDFS state
+Received 4 nodes from PBS
+Master is: i86
+Configuring node: i86
+rm -rf /tmp/hadoop-edmundxing/log; mkdir -p /tmp/hadoop-edmundxing/log
+rm -rf /tmp/hadoop-edmundxing/data; mkdir -p /tmp/hadoop-edmundxing/data
+Configuring node: i87
+rm -rf /tmp/hadoop-edmundxing/log; mkdir -p /tmp/hadoop-edmundxing/log
+rm -rf /tmp/hadoop-edmundxing/data; mkdir -p /tmp/hadoop-edmundxing/data
+Configuring node: i88
+rm -rf /tmp/hadoop-edmundxing/log; mkdir -p /tmp/hadoop-edmundxing/log
+rm -rf /tmp/hadoop-edmundxing/data; mkdir -p /tmp/hadoop-edmundxing/data
+Configuring node: i89
+rm -rf /tmp/hadoop-edmundxing/log; mkdir -p /tmp/hadoop-edmundxing/log
+rm -rf /tmp/hadoop-edmundxing/data; mkdir -p /tmp/hadoop-edmundxing/data
+
+Format HDFS
+
+Start all Hadoop daemons
+starting namenode, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-namenode-i86.out
+i86: starting datanode, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-datanode-i86.out
+i87: starting datanode, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-datanode-i87.out
+i88: starting datanode, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-datanode-i88.out
+i89: starting datanode, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-datanode-i89.out
+i86: starting secondarynamenode, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-secondarynamenode-i86.out
+starting jobtracker, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-jobtracker-i86.out
+i86: starting tasktracker, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-tasktracker-i86.out
+i87: starting tasktracker, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-tasktracker-i87.out
+i88: starting tasktracker, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-tasktracker-i88.out
+i89: starting tasktracker, logging to /tmp/hadoop-edmundxing/log/hadoop-edmundxing-tasktracker-i89.out
+
+Found 1 items
+-rw-r--r--   2 edmundxing supergroup      11410 2014-10-24 10:51 /user/edmundxing/DataFXH/smallfile/prog2-sample-small.txt
+Found 1 items
+-rw-r--r--   2 edmundxing supergroup      29601 2014-10-24 10:52 /user/edmundxing/DataFXH/mediumfile/prog2-sample-medium.txt
+Found 1 items
+-rw-r--r--   2 edmundxing supergroup     198438 2014-10-24 10:52 /user/edmundxing/DataFXH/largefile/prog2-sample-large.txt
+Total iterations of PageRank: 22
+Total time (including sorting time): 573018 miliseconds.
+PageRank time for iteration 1: 43960 miliseconds.
+PageRank time for iteration 2: 23522 miliseconds.
+PageRank time for iteration 3: 24449 miliseconds.
+PageRank time for iteration 4: 24463 miliseconds.
+PageRank time for iteration 5: 23436 miliseconds.
+PageRank time for iteration 6: 24405 miliseconds.
+PageRank time for iteration 7: 24029 miliseconds.
+PageRank time for iteration 8: 24447 miliseconds.
+PageRank time for iteration 9: 23429 miliseconds.
+PageRank time for iteration 10: 24334 miliseconds.
+PageRank time for iteration 11: 24327 miliseconds.
+PageRank time for iteration 12: 23335 miliseconds.
+PageRank time for iteration 13: 24328 miliseconds.
+PageRank time for iteration 14: 24416 miliseconds.
+PageRank time for iteration 15: 23434 miliseconds.
+PageRank time for iteration 16: 24374 miliseconds.
+PageRank time for iteration 17: 24330 miliseconds.
+PageRank time for iteration 18: 23368 miliseconds.
+PageRank time for iteration 19: 24330 miliseconds.
+PageRank time for iteration 20: 24330 miliseconds.
+PageRank time for iteration 21: 24334 miliseconds.
+PageRank time for iteration 22: 23319 miliseconds.
+Sort PageRank time: 24319 miliseconds.
+Found 2 items
+drwxr-xr-x   - edmundxing supergroup          0 2014-10-24 11:00 /user/edmundxing/DataFXH/smallfile22/_logs
+-rw-r--r--   2 edmundxing supergroup      12345 2014-10-24 11:01 /user/edmundxing/DataFXH/smallfile22/part-00000
+Found 2 items
+drwxr-xr-x   - edmundxing supergroup          0 2014-10-24 11:01 /user/edmundxing/DataFXH/smallfileSortedResults/_logs
+-rw-r--r--   2 edmundxing supergroup       4566 2014-10-24 11:01 /user/edmundxing/DataFXH/smallfileSortedResults/part-00000
+Found 2 items
+drwxr-xr-x   - edmundxing supergroup          0 2014-10-24 11:01 /user/edmundxing/DataFXH/smallfileStatResults/_logs
+-rw-r--r--   2 edmundxing supergroup        139 2014-10-24 11:01 /user/edmundxing/DataFXH/smallfileStatResults/part-00000
+Total iterations of PageRank: 11
+Total time (including sorting time): 289558 miliseconds.
+PageRank time for iteration 1: 24762 miliseconds.
+PageRank time for iteration 2: 24411 miliseconds.
+PageRank time for iteration 3: 23419 miliseconds.
+PageRank time for iteration 4: 24418 miliseconds.
+PageRank time for iteration 5: 23439 miliseconds.
+PageRank time for iteration 6: 24448 miliseconds.
+PageRank time for iteration 7: 24416 miliseconds.
+PageRank time for iteration 8: 23565 miliseconds.
+PageRank time for iteration 9: 24406 miliseconds.
+PageRank time for iteration 10: 24425 miliseconds.
+PageRank time for iteration 11: 23438 miliseconds.
+Sort PageRank time: 24411 miliseconds.
+Found 2 items
+drwxr-xr-x   - edmundxing supergroup          0 2014-10-24 11:06 /user/edmundxing/DataFXH/mediumfile11/_logs
+-rw-r--r--   2 edmundxing supergroup      32013 2014-10-24 11:06 /user/edmundxing/DataFXH/mediumfile11/part-00000
+Found 2 items
+drwxr-xr-x   - edmundxing supergroup          0 2014-10-24 11:06 /user/edmundxing/DataFXH/mediumfileSortedResults/_logs
+-rw-r--r--   2 edmundxing supergroup      14713 2014-10-24 11:06 /user/edmundxing/DataFXH/mediumfileSortedResults/part-00000
+Found 2 items
+drwxr-xr-x   - edmundxing supergroup          0 2014-10-24 11:06 /user/edmundxing/DataFXH/mediumfileStatResults/_logs
+-rw-r--r--   2 edmundxing supergroup        141 2014-10-24 11:07 /user/edmundxing/DataFXH/mediumfileStatResults/part-00000
+Total iterations of PageRank: 37
+Total time (including sorting time): 912091 miliseconds.
+PageRank time for iteration 1: 22759 miliseconds.
+PageRank time for iteration 2: 23371 miliseconds.
+PageRank time for iteration 3: 24371 miliseconds.
+PageRank time for iteration 4: 24385 miliseconds.
+PageRank time for iteration 5: 23365 miliseconds.
+PageRank time for iteration 6: 24399 miliseconds.
+PageRank time for iteration 7: 24408 miliseconds.
+PageRank time for iteration 8: 23392 miliseconds.
+PageRank time for iteration 9: 24398 miliseconds.
+PageRank time for iteration 10: 24417 miliseconds.
+PageRank time for iteration 11: 23416 miliseconds.
+PageRank time for iteration 12: 24417 miliseconds.
+PageRank time for iteration 13: 24387 miliseconds.
+PageRank time for iteration 14: 23395 miliseconds.
+PageRank time for iteration 15: 24421 miliseconds.
+PageRank time for iteration 16: 23443 miliseconds.
+PageRank time for iteration 17: 24406 miliseconds.
+PageRank time for iteration 18: 24411 miliseconds.
+PageRank time for iteration 19: 23487 miliseconds.
+PageRank time for iteration 20: 24406 miliseconds.
+PageRank time for iteration 21: 24338 miliseconds.
+PageRank time for iteration 22: 23402 miliseconds.
+PageRank time for iteration 23: 24420 miliseconds.
+PageRank time for iteration 24: 24468 miliseconds.
+PageRank time for iteration 25: 23411 miliseconds.
+PageRank time for iteration 26: 24396 miliseconds.
+PageRank time for iteration 27: 23383 miliseconds.
+PageRank time for iteration 28: 24325 miliseconds.
+PageRank time for iteration 29: 24377 miliseconds.
+PageRank time for iteration 30: 24327 miliseconds.
+PageRank time for iteration 31: 23320 miliseconds.
+PageRank time for iteration 32: 24315 miliseconds.
+PageRank time for iteration 33: 24353 miliseconds.
+PageRank time for iteration 34: 23348 miliseconds.
+PageRank time for iteration 35: 24335 miliseconds.
+PageRank time for iteration 36: 24324 miliseconds.
+PageRank time for iteration 37: 24351 miliseconds.
+Sort PageRank time: 23444 miliseconds.
+Found 2 items
+drwxr-xr-x   - edmundxing supergroup          0 2014-10-24 11:21 /user/edmundxing/DataFXH/largefile37/_logs
+-rw-r--r--   2 edmundxing supergroup     212098 2014-10-24 11:22 /user/edmundxing/DataFXH/largefile37/part-00000
+Found 2 items
+drwxr-xr-x   - edmundxing supergroup          0 2014-10-24 11:22 /user/edmundxing/DataFXH/largefileSortedResults/_logs
+-rw-r--r--   2 edmundxing supergroup      70749 2014-10-24 11:22 /user/edmundxing/DataFXH/largefileSortedResults/part-00000
+Found 2 items
+drwxr-xr-x   - edmundxing supergroup          0 2014-10-24 11:22 /user/edmundxing/DataFXH/largefileStatResults/_logs
+-rw-r--r--   2 edmundxing supergroup        142 2014-10-24 11:22 /user/edmundxing/DataFXH/largefileStatResults/part-00000
+Stop all Hadoop daemons
+stopping jobtracker
+i87: no tasktracker to stop
+i86: no tasktracker to stop
+i89: stopping tasktracker
+i88: stopping tasktracker
+stopping namenode
+i87: stopping datanode
+i89: stopping datanode
+i86: stopping datanode
+i88: stopping datanode
+i86: stopping secondarynamenode
+
+Clean up
+Number of Hadoop nodes specified by user: 4
+Received 4 nodes from PBS
+Clean up node: i86
+rm -rf /tmp/hadoop-edmundxing/data /tmp/hadoop-edmundxing/log
+Clean up node: i87
+rm -rf /tmp/hadoop-edmundxing/data /tmp/hadoop-edmundxing/log
+Clean up node: i88
+rm -rf /tmp/hadoop-edmundxing/data /tmp/hadoop-edmundxing/log
+Clean up node: i89
+rm -rf /tmp/hadoop-edmundxing/data /tmp/hadoop-edmundxing/log
+
+ncpus=8,neednodes=4:ppn=8,nodes=4:ppn=8,walltime=04:00:00
